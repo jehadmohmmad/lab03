@@ -1,32 +1,24 @@
-var name = "jehad";
-var age = 30;
-var favsports = "boxing";
-
-
-var nameUserInput = prompt("guss what  is the name plyer? ");
-var ageUserInput = prompt("guss his age") ;
-var favsportsUserInput =("he is boxing player");
-
-if(nameUserInput=== name){
-    console.log("jehad is boxing player since 2005");
-}else{
-    console.log("the name of player is not correct!");
+function totalcalculator(ahmad, ali, yazan) {
+    var sum = parseInt(ahmad) + parseInt(ali) + parseInt(yazan);
+    var pay = sum + 3;
+    alert("total is" + pay);
 }
 
-if (ageUserInput== age){
-    alert("your answer is correct");
+var counter = 0;
+var ahmad = 0;
+var ali = 0;
+var yazan = 0;
 
-}else{
-    alert("Thats is not correct !!");
+while (counter < 3) {
+    if (counter == 0) {
+        ahmad = prompt("how much ahmad pay ?");
+    } else if (counter == 1) {
+        ali = prompt("how much ali pay ?")
+    } else {
+        yazan = prompt("how much yazan pay ?")
+    }
+
+    counter += 1;
 }
-
-if (favsportsUserInput=== boxing){
-    console.log("Boxing one of hardest sportnin the World");
-
-}else{
-    console.log("you miss the hardest game !!");
-}
-
-
-    
+totalcalculator(ahmad, ali, yazan)
 
