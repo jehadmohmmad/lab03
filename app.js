@@ -1,5 +1,5 @@
 var name = "jehad";
-var age = "30";
+var age = 30;
 var favsports = "boxing";
 
 
@@ -13,11 +13,11 @@ if(nameUserInput=== name){
     console.log("the name of player is not correct!");
 }
 
-if (ageUserInput=== age){
-    console.log("your correct");
+if (ageUserInput== age){
+    alert("your answer is correct");
 
 }else{
-    console.log("Thats is not correct !!");
+    alert("Thats is not correct !!");
 }
 
 if (favsportsUserInput=== boxing){
