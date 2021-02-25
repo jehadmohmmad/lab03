@@ -22,3 +22,15 @@ while (counter < 3) {
 }
 totalcalculator(ahmad, ali, yazan)
 
+var numberofimg = prompt( "enter number of img you would show it " );
+var storenumberofimg = numberofimg;
+
+for (var i =0 ; i<storenumberofimg ; i++)
+    {
+
+        document.write('<img src="https://i.ytimg.com/vi/S9qGpS6IHuQ/maxresdefault.jpg">');
+    }
+
+
+
+
